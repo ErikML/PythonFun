@@ -1,7 +1,11 @@
 '''
-Created on Oct 7, 2013
-
-@author: Erik
+Code by Erik Lindgren
+    
+Functions for calculating prime numbers. The core calculations are done by an
+implementation of the Sieve of Eratosthenes that is capable of generating an
+arbitrary large number of primes (as long as you don't mind waiting for some of
+the larger ones). Calculation times are reasonable up to around the 100,000th
+prime number.
 '''
 
 import heapq
